@@ -12,6 +12,7 @@
 - Download dan Install Software dibawah ini terlebih dahulu.
     - [Composer](https://getcomposer.org/)
     - XAMPP atau WAMP Server
+    - [GIT](https://git-scm.com/)
 - Jalan kan perintah `git clone https://github.com/riomulyadi/Corona-Virus-Laravel.git` pada Powershell (Bukan CMD)
 - Selanjutnya `cd Corona-Virus-Laravel`
 - `composer install`
