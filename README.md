@@ -10,13 +10,15 @@
 ## Cara Clone Project Laravel Ini
 
 - Download dan Install Software dibawah ini terlebih dahulu.
-    - Test
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+    - [Composer](https://getcomposer.org/)
+    - XAMPP atau WAMP Server
+- Jalan kan perintah `git clone https://github.com/riomulyadi/Corona-Virus-Laravel.git` pada Powershell (Bukan CMD)
+- Selanjutnya `cd Corona-Virus-Laravel`
+- `composer install`
+- `cp .env.example .env`
+- `php artisan key:generate`
+- `php artisan serve`
+- Selanjutnya tinggal buka halaman `127.0.0.1:8000` di browser
 
 Laravel is accessible, powerful, and provides tools required for large, robust applications.
 
